@@ -8,6 +8,7 @@ export default props => {
     <div className="redditPostBottomContainer">
       <p className="comments">{props.comments} Comments</p>
       <p>Submitted {moment(props.creationDate).fromNow()}</p>
+      <p>{props.userName}</p>
     </div>
   </div>
 }
